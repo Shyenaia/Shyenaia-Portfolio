@@ -1,0 +1,283 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(/Users/shyenaiacastaneda/repos/Shyenaia-Portfolio/images/cactusbackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.webpage-title{
+    display:flex;
+    align-items: center;
+    text-align:center;
+    position: absolute;
+    font-family: cursive;
+    color: white;
+    background-image: linear-gradient(#cf9385ff,#ffc0c0ff);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 5px 30px #3b3b3bff;
+    margin: -60px 20px 20px 40px;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    background-image: linear-gradient(#90b1a3ff, #50645cff);
+    box-shadow: 0px 0px 20px #414040;
+    padding: 8px 0px;
+    margin: 70px 0px 120px 0px;
+    border-radius: 10px;
+}
+.nav-item{
+    list-style-type: none;
+    margin-right: 2rem;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-item a:hover{
+    color: #cf9385;
+}
+main {
+    display: flex;
+    height: 750px;
+}
+section {
+    height: 700px;
+}
+aside {
+    flex: 1;
+    flex-wrap:wrap;
+    max-width: 300px;
+}
+.sidebar-items {
+    width: 100px;
+    padding: 10px;
+    margin: 20px 20px 225px 20px;
+    background-image: linear-gradient(#90b1a3ff, #50645cff);
+    box-shadow: 5px 1px 10px 2px #737373;
+    border-radius: 10px;
+    font-family: 'Gill Sans';
+    color: white;
+    text-align: center;
+}
+.p1{
+    box-shadow: 5px 5px 10px #414040;
+    width: 600px;
+    height: 175px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#90b1a3ff;
+    border-width: 4px;
+    font-family: 'Gill Sans';
+    color:#42584fff;
+    padding: 20px;
+    text-align: center;
+}
+.profilepic {
+    float: right;
+    border: 1px;
+    margin: 0px 0px 15px 10px;
+    height: 170px;
+    width: 140px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #414040;
+}
+.container-1 {
+    position:relative;
+    float: left;
+    width: 400px;
+    margin:20px 20px 5px 20px;
+    border-style: solid;
+    border-color:#90b1a3ff;
+    border-width: 4px;
+    box-shadow: 0px 0px 20px #414040;
+}
+.project-1 {
+    display:block;
+    width: 100%;
+}
+.imageoverlay-1 {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Gill Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+ .imageoverlay-1 > * {
+    transform: translateY(20px);
+}
+.imageoverlay-1:hover {
+    opacity: 1;
+}
+ .imageoverlay-1:hover > * {
+    transform: translateY(20px);
+}
+.text-1 {
+    font-size: 16px;
+    Font-weight: bold;
+}
+.container-2 {
+    position: relative;
+    float: left;
+    width: 200px;
+    margin:20px 0px 5px 50px;
+    border-style: solid;
+    border-color:#90b1a3ff;
+    border-width: 4px;
+    box-shadow: 0px 0px 20px #330000;
+}
+.project-2 {
+    display:block;
+    width: 100%;
+}
+.imageoverlay-2 {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Gill Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+ .imageoverlay-2 > * {
+    transform: translateY(20px);
+}
+.imageoverlay-2:hover {
+    opacity: 1;
+}
+ .imageoverlay-2:hover > * {
+    transform: translateY(20px);
+}
+.text-2 {
+    font-size: 16px;
+    Font-weight: bold;
+}
+.container-3 {
+    position:relative;
+    float: right;
+    width: 200px;
+    margin:20px 100px 5px 20px;
+    border-style: solid;
+    border-color:#90b1a3ff;
+    border-width: 4px;
+    box-shadow: 0px 0px 20px #414040;
+}
+.project-3 {
+    display:block;
+    width: 100%;
+}
+.imageoverlay-3 {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Gill Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+ .imageoverlay-3 > * {
+    transform: translateY(20px);
+}
+.imageoverlay-3:hover {
+    opacity: 1;
+}
+ .imageoverlay-3:hover > * {
+    transform: translateY(20px);
+}
+.text-3 {
+    font-size: 16px;
+    Font-weight: bold;
+}
+.container-4 {
+    position: absolute;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px #414040;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#90b1a3ff;
+    border-width: 4px;
+    padding: 10px;
+    margin: 275px 20px 5px 20px;
+    color: #42584fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fa-brands {
+    color: #42584fff;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-brands:hover {
+    color: #ac5f72ff;
+}
+.fa-brands:visited {
+    color: #42584fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+.fa-brands:active {
+    color: #42584fff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.fa-solid {
+    color:#42584fff;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-solid:hover {
+    color: #ac5f72ff;
+}
+.fa-solid:active {
+    color: #42584fff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#90b1a3ff, #50645cff);
+    box-shadow: 0px 0px 20px #414040;
+    padding: 8px 0px;
+    margin: 10px 0px 50px 0px;
+    border-radius: 10px;
+    font-family: 'Gill Sans';
+    color: white;
+}
