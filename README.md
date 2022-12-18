@@ -8,7 +8,7 @@ This portfolio includes all of my completed and deployed projects. It will be up
  
 Here is the deployed link to my portfolio: https://shyenaia.github.io/Shyenaia-Portfolio/
  
-<img src="/Users/shyenaiacastaneda/repos/Shyenaia-Portfolio/images/deployedportfolioscreenshot.png" width="300" height="250">
+<img src="./assets/images/deployedportfolioscreenshot.png" width="300" height="250">
  
 ## License
  
