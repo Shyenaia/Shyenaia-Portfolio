@@ -6,7 +6,7 @@ This portfolio includes all of my completed and deployed projects. It will be up
  
 ## Usage
  
-Here is the deployed link to my portfolio: https://shyenaia.github.io/Shyenaia-Portfolio/
+Here is the deployed link to my portfolio: https://shyenaia.github.io/ShyenaiaC-Portfolio/
  
 <img src="./assets/images/deployedportfolioscreenshot.png" width="300" height="250">
  
