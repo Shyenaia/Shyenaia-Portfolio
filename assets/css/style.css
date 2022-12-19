@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-image: url(/Users/shyenaiacastaneda/repos/Shyenaia-Portfolio/images/cactusbackground.png);
+    background-image: url(/Users/shyenaiacastaneda/repos/Shyenaia-Portfolio/assets/images/cactusbackground.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -47,7 +47,7 @@ main {
     display: flex;
     height: 750px;
 }
-section {
+.section-1 {
     height: 700px;
 }
 aside {
