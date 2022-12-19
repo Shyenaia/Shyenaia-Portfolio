@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-image: url(/Users/shyenaiacastaneda/repos/Shyenaia-Portfolio/assets/images/cactusbackground.png);
+    background-image: url(../images/cactusbackground.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
